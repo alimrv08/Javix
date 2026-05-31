@@ -9,7 +9,7 @@ OWNER_USER_ID = int(os.getenv("OWNER_USER_ID", "0"))
 
 # === GEMINI ===
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-1.5-flash-8b"
 
 # === SUPABASE ===
 SUPABASE_URL = os.getenv("SUPABASE_URL")
